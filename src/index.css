@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainCHild{
+    width: 50%;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    justify-items: center;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+.mainContainer {   
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.showNotice{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.name{
+    position: absolute;
+    top: 51px;
+    font-size: 34px;
+}
+.turn{
+    position: absolute;
+    border: 0;
+    bottom: 19px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #b3b38b;
+    font-size: 27px;
+}
